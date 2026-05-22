@@ -1,0 +1,390 @@
+Du bist ein Senior Frontend Developer und UI/UX Designer und sollst eine moderne, professionelle und vollständig responsive Webseite für ein deutsches Eventtechnik-Unternehmen erstellen.
+
+Der Firmenname lautet:
+
+FeToMa Veranstaltungstechnik
+
+Die bestehende Webseite dient nur als inhaltliche Grundlage:
+https://www.fetoma-vt.de/
+
+Die neue Webseite soll KEINE 1:1 Kopie werden, sondern eine moderne Premium-Version mit besserer Struktur, besserem Design und besserer Benutzerführung.
+
+====================================================
+ZIEL DER WEBSEITE
+====================================================
+
+Die Webseite soll:
+
+- professionell wirken
+- modern wirken
+- emotional wirken
+- Vertrauen erzeugen
+- junge und moderne Kunden ansprechen
+- Events visuell verkaufen
+- mobile-first aufgebaut sein
+- lokal/regional wirken
+- hochwertig aussehen
+
+Die Seite soll den Eindruck vermitteln:
+
+„professioneller Eventdienstleister für Hochzeiten, Geburtstage, Vereinsfeste und Events“
+
+NICHT:
+„private Vermietungsseite“
+
+====================================================
+TECH-STACK
+====================================================
+
+Nutze exakt folgenden Stack:
+
+Frontend:
+- React
+- Vite
+
+Styling:
+- TailwindCSS
+
+Animationen:
+- Framer Motion
+
+Icons:
+- Lucide React
+
+Routing:
+- React Router
+
+Optional:
+- shadcn/ui für moderne UI-Komponenten
+
+Deployment-ready:
+- Vercel kompatibel
+
+====================================================
+DESIGNRICHTUNG
+====================================================
+
+Modernes Dark Theme.
+
+Farben:
+- Schwarz
+- Anthrazit
+- Dunkelgrau
+
+Akzentfarben:
+- Neon-Blau
+- Violett
+- RGB-Lichteffekte
+
+Designstil:
+- modern
+- minimalistisch
+- hochwertig
+- leicht futuristisch
+- clean
+- eventorientiert
+
+Visuelle Eigenschaften:
+- Glassmorphism
+- Blur-Effekte
+- Smooth Animations
+- Große Bilder
+- Hover-Effekte
+- Moderne Kartenlayouts
+- Sanfte Übergänge
+- Große Headlines
+
+====================================================
+ALLGEMEINE ANFORDERUNGEN
+====================================================
+
+Die Webseite muss:
+
+- vollständig responsive sein
+- mobile-first entwickelt werden
+- auf Smartphones perfekt aussehen
+- moderne Animationen besitzen
+- SEO-Basis enthalten
+- schnelle Ladezeiten haben
+- moderne Navigation besitzen
+- Sticky Navbar besitzen
+- Smooth Scrolling besitzen
+- hochwertige Typografie besitzen
+
+====================================================
+SEITENSTRUKTUR
+====================================================
+
+Erstelle folgende Seiten:
+
+1. Landingpage
+2. Eventtechnik
+3. Dekoration
+4. Kontakt
+
+====================================================
+LANDINGPAGE
+====================================================
+
+Die Landingpage soll folgende Abschnitte enthalten:
+
+----------------------------------------------------
+HERO SECTION
+----------------------------------------------------
+
+Fullscreen Hero.
+
+Großes Eventbild oder Eventvideo im Hintergrund.
+
+Overlay:
+- dunkler Verlauf
+- leichtes Blur
+
+Headline:
+„Eventtechnik für unvergessliche Nächte“
+
+Subheadline:
+„Licht, Sound, Partyzelte und Dekoration für Hochzeiten, Geburtstage, Firmenfeiern und Vereinsfeste.“
+
+Buttons:
+- Jetzt anfragen
+- Leistungen ansehen
+
+Die Hero Section soll emotional und hochwertig wirken.
+
+----------------------------------------------------
+LEISTUNGEN
+----------------------------------------------------
+
+Moderne Karten mit Icons und Bildern.
+
+Leistungskategorien:
+
+- Eventtechnik
+- Lichttechnik
+- Soundtechnik
+- Partyzelte
+- Dekoration
+- Hochzeitsausstattung
+
+Jede Karte:
+- modernes Hover-Verhalten
+- Bild
+- kurzer Beschreibungstext
+
+----------------------------------------------------
+GALERIE
+----------------------------------------------------
+
+Große moderne Galerie mit Masonry-Grid.
+
+Verwende Beispielbilder aus:
+- Hochzeiten
+- DJ-Setups
+- Partyzelte
+- Bühnenlicht
+- Events
+- Lichtshows
+- Vereinsfeste
+
+Falls keine echten Bilder vorhanden sind:
+Nutze hochwertige Stockbilder als Platzhalter.
+
+Nutze z. B.:
+- Unsplash
+- Pexels
+
+Die Bilder sollen dynamisch und hochwertig wirken.
+
+----------------------------------------------------
+ABLAUF
+----------------------------------------------------
+
+Sektion:
+„So läuft eure Anfrage ab“
+
+4 Schritte:
+
+1. Anfrage senden
+2. Beratung erhalten
+3. Aufbau & Lieferung
+4. Event genießen
+
+Nutze moderne Timeline oder Cards.
+
+----------------------------------------------------
+KUNDENFEEDBACK
+----------------------------------------------------
+
+Beispielbewertungen:
+
+„Super unkompliziert und top Equipment.“
+„Perfekte Lichttechnik für unsere Hochzeit.“
+„Sehr zuverlässig und moderne Ausstattung.“
+
+Moderne Review Cards.
+
+----------------------------------------------------
+CALL TO ACTION
+----------------------------------------------------
+
+Große Abschlusssektion:
+
+„Jetzt Event anfragen“
+
+Mit:
+- WhatsApp Button
+- Kontaktbutton
+
+====================================================
+EVENTTECHNIK SEITE
+====================================================
+
+Die Seite soll modernes Equipment-Listing enthalten.
+
+NICHT als einfache Tabelle.
+
+Nutze moderne Produktkarten.
+
+Kategorien:
+- Soundtechnik
+- Lichttechnik
+- Partyzubehör
+- Zelte
+- Veranstaltungstechnik
+
+Jede Karte:
+- Bild
+- Titel
+- kurze Beschreibung
+- optional Preis
+- modernes Hover Design
+
+Beispieltexte:
+
+„Professionelle Lichttechnik für stimmungsvolle Events.“
+
+„Leistungsstarke Soundanlagen für kleine und große Veranstaltungen.“
+
+====================================================
+DEKORATIONSSEITE
+====================================================
+
+Modernes Grid-Layout.
+
+Produkte:
+- Gläser
+- Vasen
+- Tischdeko
+- Lichterketten
+- Hochzeitsdeko
+
+Jede Karte:
+- Produktbild
+- Produktname
+- kurzer Beschreibungstext
+
+====================================================
+KONTAKTSEITE
+====================================================
+
+Moderne Kontaktseite.
+
+Inhalte:
+- Kontaktformular
+- Telefonnummer
+- E-Mail
+- WhatsApp Button
+
+Zusätzlich:
+- große moderne CTA-Sektion
+
+Optional:
+- Google Maps Platzhalter
+
+====================================================
+NAVIGATION
+====================================================
+
+Sticky Navbar.
+
+Menüpunkte:
+- Startseite
+- Eventtechnik
+- Dekoration
+- Kontakt
+
+Desktop:
+- transparente Navbar mit Blur
+
+Mobile:
+- modernes Burger-Menü
+
+====================================================
+FOOTER
+====================================================
+
+Moderner Footer mit:
+
+- Firmenname
+- Kontakt
+- Social Links
+- Copyright
+
+====================================================
+BILDER
+====================================================
+
+Wenn keine lokalen Bilder vorhanden sind:
+
+Nutze hochwertige Beispielbilder aus:
+- Unsplash
+- Pexels
+
+Suche nach:
+- event lighting
+- wedding party
+- dj setup
+- party tent
+- concert lights
+- wedding decoration
+
+Verwende große hochwertige Bilder.
+
+====================================================
+DATEISTRUKTUR
+====================================================
+
+Nutze saubere Struktur:
+
+src/
+  components/
+  pages/
+  assets/
+  data/
+  hooks/
+  layouts/
+
+====================================================
+WICHTIG
+====================================================
+
+Die Seite soll aussehen wie eine moderne Premium-Eventagentur.
+
+Fokus:
+- hochwertige Optik
+- starke visuelle Wirkung
+- moderne Benutzerführung
+- mobile Optimierung
+- emotionale Eventdarstellung
+
+Die Webseite soll realistisch produktionsreif aussehen.
+
+Erstelle:
+- vollständigen React Code
+- moderne Komponenten
+- Tailwind Styling
+- Animationen
+- responsive Layouts
+
+Nutze realistische Platzhaltertexte und hochwertige Beispielbilder.

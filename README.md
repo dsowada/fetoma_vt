@@ -1,16 +1,50 @@
-# React + Vite
+# FeToMa – fertige statische Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Hosten
 
-Currently, two official plugins are available:
+Den **gesamten Inhalt von `dist/`** in das Webverzeichnis des Hosters hochladen.
+Die dortige `index.html` muss direkt im Webverzeichnis liegen.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Bei einem Hosting-Dienst mit Projekteinstellungen:
+- Veröffentlichungsverzeichnis: `dist`
+- Build-Befehl: keiner
+- Framework: keines / statische Website
 
-## React Compiler
+Kein Node.js, npm, Python oder Build-Schritt ist auf dem Webserver erforderlich.
+Die Website ist für eine eigene Domain bzw. deren Stammverzeichnis vorgesehen,
+nicht für ein Unterverzeichnis wie `/meine-seite/`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Lokal ansehen
 
-## Expanding the ESLint configuration
+Vom Projektordner aus:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```sh
+python3 -m http.server 5173 --bind 127.0.0.1 --directory dist
+```
+
+Danach http://localhost:5173 öffnen.
+
+## Bearbeiten
+
+Die Dateien in `dist/` sind jetzt die maßgeblichen, direkt bearbeitbaren Dateien:
+- `index.html`: Startseite
+- `eventtechnik/index.html`, `dekoration/index.html`, `kontakt/index.html`
+- `widerruf/index.html`
+- `assets/site.css`: ergänzende Gestaltung
+- `assets/site.js`: Navigation und WhatsApp-Anfrage
+- `assets/fonts/` und die `*_files/`-Ordner: benötigte Originalschriften, Bilder und CSS
+
+Die ursprünglichen Browserexporte, doppelte Dateien und Build-Werkzeuge wurden entfernt.
+Die verbliebenen Bildgrößen werden in den responsiven Bildern verwendet.
+
+## Bestehende Einschränkungen
+
+- Das Kontaktformular öffnet einen WhatsApp-Entwurf; der Nutzer sendet selbst ab.
+- Der tatsächliche Widerruf erfolgt über einen Link zum Originalformular.
+- Impressum, Datenschutz und Cookie-Einstellungen verweisen weiterhin auf die
+  Originalwebsite, da dafür keine lokalen Exporte vorliegen.
+- Die HTML-Dateien enthalten weiterhin `noindex, nofollow`. Wenn die neue
+  Website in Suchmaschinen erscheinen soll, muss diese Meta-Angabe angepasst werden.
+- Die Darstellung wurde nicht visuell im Browser geprüft.
+
+Es wurde nichts veröffentlicht.
